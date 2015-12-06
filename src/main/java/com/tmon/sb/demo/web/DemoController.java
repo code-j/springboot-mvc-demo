@@ -1,4 +1,4 @@
-package com.tmon.sb.demo.controller;
+package com.tmon.sb.demo.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
