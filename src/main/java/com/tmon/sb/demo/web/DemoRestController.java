@@ -13,7 +13,7 @@ public class DemoRestController {
 
 	@Autowired
 	DemoService demoService;
-	
+
 	@RequestMapping("/getCustomer")
 	public Customer getCustomer() {
 		return demoService.getHomeMessage();
