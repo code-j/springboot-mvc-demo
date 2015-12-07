@@ -5,11 +5,9 @@
 <html lang="ko">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Welcome Page</title>
+<title>Welcome Home Page</title>
 </head>
 <body>
-	<c:out value="<xmp>" escapeXml="true"></c:out>
-	<h2>WelCome! ${name}</h2>
-	<div>JSP version</div>
+	<h2>WelCome Home! ${title}</h2>
 </body>
 </html>

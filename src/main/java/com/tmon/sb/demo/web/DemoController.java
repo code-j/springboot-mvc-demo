@@ -10,7 +10,7 @@ public class DemoController {
 	
 	@RequestMapping("/home")
 	public String home(Model model) {
-		model.addAttribute("name", "SpringBlog from Millky");
+		model.addAttribute("title", "Spring Boot Demo");
 		return "home";
 	}
 }

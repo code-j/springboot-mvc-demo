@@ -15,7 +15,6 @@ public class DemoRestController {
 	
 	@RequestMapping("/getCustomer")
 	public Customer getCustomer() {
-		
 		return demoService.getHomeMessage();
 	}
 }
