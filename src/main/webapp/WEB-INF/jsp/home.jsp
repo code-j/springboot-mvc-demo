@@ -9,5 +9,6 @@
 </head>
 <body>
 	<h2>WelCome Home! ${title}</h2>
+	<h2>Today : ${time}</h2>
 </body>
 </html>
