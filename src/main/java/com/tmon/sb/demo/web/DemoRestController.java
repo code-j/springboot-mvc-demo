@@ -8,6 +8,7 @@ import com.tmon.sb.demo.domain.Customer;
 import com.tmon.sb.demo.service.DemoService;
 
 @RestController
+@RequestMapping("/api")
 public class DemoRestController {
 
 	@Autowired
